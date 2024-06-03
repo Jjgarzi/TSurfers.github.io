@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png">
+<title>Tide Surfers</title>
+<link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+        <div class="gcse-searchbox-only"></div>
+        <script async src="https://cse.google.com/cse.js?cx=a1f73623150194064"></script>
+<div class="special">
+    <header>
+        <h1>Tide Surfers</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="california.html">California</a></li>
+                <li><a href="contact.html">Contact Us</a> </li>
+            </ul>
+            <img class="logo" src="images/logo.GIF" alt="Tide Surfers Logo">
+        </nav>
+    </header>
+<div class="sea">
+    <div class="blabel">
+        <h2 class="message">Send us a Message in a bottle.</h2>
+            <form action="contact.php" method="post">
+                <div>
+                    <label for="username">Name:</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
+                </div>
+                <div>
+                      <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" maxlength="320"></textarea>
+                    <button id="send" type="submit"><b>Send</b></button>
+                    <script>
+                        
+                        let button = document.getElementById("send");
+                            button.addEventListener("click", function() {
+            alert("Button clicked!");
+        });
+                        </script>
+                </div>
+             <div>
+                      <label for="newsletter">Subscribe to our newsletter:</label>
+                            <input type="checkbox" id="newsletter" name="newsletter" checked><br>
+                </div>
+            </form>
+    </div>
+    </div>
+    
+    
+    
+    
+    <footer>
+        <p><b>&copy; 2024 Tide Surfers. All rights reserved.</b></p>
+    </footer>
+</div>
+</body>
+</html>

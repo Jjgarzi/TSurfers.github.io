@@ -1,0 +1,324 @@
+    .beaches img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px #80ffff;
+    }
+
+    .blabel {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 20px;
+        border-style: groove;
+        box-shadow: 0 0 66px #c9780e;
+        background-color: #edcd82;
+    }
+
+    body {
+        font-family: Candara, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: oldlace; 
+    }
+
+
+
+    button {
+        font-size: 16px;
+        color: #6B5D40;
+        background-color: oldlace;
+        border: bold;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button:hover {
+        background-color: greenyellow;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 100%;
+
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .custom-audio::-webkit-media-controls-panel {
+      background-color: aliceblue;
+      /* Add padding */
+      padding: 10px;
+    }
+
+    .custom-audio::-webkit-media-controls-play-button {
+      background-color: oldlace;
+        border-radius: 15px;
+    }
+
+    .custom-audio::-webkit-media-controls-volume-slider {
+      width: 10px;
+    }
+
+    .custom-audio::-webkit-media-controls-timeline {
+      background-color: aliceblue;
+    }
+
+    .custom-audio::-webkit-media-controls-volume-control-container {
+      margin-top: 5px;
+    }
+
+    footer {
+        text-align: center;
+        grid-row: 4;
+        grid-column: 1 / -1;
+        background-image: url(images/b4.JPG);
+        background-position: right bottom;
+        background-size: cover;
+    }
+
+    h1 {
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 48px;
+        font-family: Papyrus, fantasy;        
+    }
+
+    h2 {
+        color: #6B5D40;
+        font-family: Brush Script MT, cursive;             
+        background-color: aliceblue;
+        text-align: center;
+        font-size: 48px;
+    }
+
+
+    h3 {
+        color: #6B5D40;
+        font-weight: bold;
+        font-size: 24px;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h5 {
+        font-size: 300%;
+        color: aliceblue;
+        text-align: center;
+    }
+
+
+    header {
+        grid-row: 1;
+        grid-column: 1 / -1;
+        background-image: url(images/b1.JPG);
+        background-position: right top;
+        background-size: cover;
+        font-family: Lucida Console, sans-serif;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border: 6px solid aliceblue;
+        padding: 20px;
+    }
+
+    imgage {
+       float: inline;
+       width: 100%;
+       height: auto;
+       border: 2px solid #333;
+       margin: 5px;
+       display: inline;
+       border-radius: 15px;       
+    }
+
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="message"] {
+        width: 100%;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing:border-box;
+        background-color: aliceblue;
+        }
+
+    li {
+        font-size: 20px;
+        color: sienna;
+    }
+
+    .logo {
+        float: inline;
+        width: 25%;
+        height: auto;
+        border: 2px solid #333;
+        margin: 5px;
+        display: block;
+        border-radius: 50%;
+    }
+
+    main {
+        padding: 20px;
+        background-color: oldlace;
+        grid-template-columns: repeat(auto-fit, 350px);
+        gap: 20px;
+        text-align: center;
+    }
+
+    .message{
+        background-image: url(images/message.PNG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color: #EBDAB7;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    nav a:hover {
+       background-color: greenyellow;
+    }
+
+    nav a:visited {
+        background-color: #00b3b3;
+    }
+
+     a:hover {
+       background-color: lightpink;
+    }
+
+     a:active {
+       color: skyblue;
+    }
+
+    p {
+        font-size: 20px;
+        color: sienna;
+    }
+
+    p.cap {
+      font-size: 24px;
+      color: white;
+    }
+
+    p.crl{
+      font-size: 12px;
+      color: black;
+    }
+
+    .pages  main {
+        display: grid;
+        grid-row: 3;
+        padding: 20px;
+        background-color: oldlace;
+        grid-template-columns: repeat(auto-fit, 350px);
+        gap: 20px;
+        text-align: center;
+    }
+
+    .recent {
+        padding: 20px;
+        flex: 1 1 300px;
+    }
+
+    .recent-articles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .recent article {
+        border: 1px solid #e5e6eb;
+        padding: 10px;
+        flex: 2;
+    }
+
+        .sea{
+        text-align: center;
+        grid-column: 1 / -1;
+        background-image: url(images/ocean.PNG);
+        background-position: right bottom;
+        background-size: cover;
+        max-width: 99%;
+        max-height: 99%;
+    
+        }
+
+    .special {
+        display: grid;
+        grid-template-rows: 1fr 2fr 2fr 1fr;
+        grid-template-columns: 25fr;
+        height: 100vh;
+        font-family: Lucida Console, sans-serif;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: oldlace;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border-color: aliceblue;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+    ul.circle-list {
+      list-style-type: circle;
+    }
+
+    .vids{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 264px,
+    }
+
+    .Voyage {
+        padding: 20px;
+		border: 5px dashed #e5e6eb;
+        flex: 1 1 300px;
+    }
